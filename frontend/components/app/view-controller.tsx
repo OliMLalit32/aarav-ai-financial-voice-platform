@@ -139,8 +139,6 @@ export function ViewController({ appConfig }: ViewControllerProps) {
             {...VIEW_MOTION_PROPS}
             startButtonText={appConfig.startButtonText}
             onStartCall={handleStartCall}
-            micError={micError}
-            isConnecting={false}
           />
         )}
 
